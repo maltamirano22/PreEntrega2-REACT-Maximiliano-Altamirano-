@@ -1,0 +1,107 @@
+
+:root{
+    --color-acento: #ffd299;
+    --color-acento-claro: #F7EEDD;
+    --color-texto: #404040;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+h2{
+    text-align: center;
+    justify-content: center;
+}
+Link:hover:not(#cart){
+color:var(--color-acento);
+}
+.nav {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.089);
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    
+
+}
+#logo {
+    
+    height: 60px;
+    }
+.nav img {
+        height: 25px;
+    }
+.item-container{
+    padding-top:40px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+
+}
+.cart-product{ 
+    border-radius: 90px 0px 30px 0px;
+    max-width: 400px;
+    text-align: center;
+    background-color: var(--color-acento-claro);
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.068);
+    transition: 200ms;
+
+}
+.cart-product:hover{
+    translate: 0 -10px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.068);
+
+}
+
+.img-container{
+    border-radius: 80px 0px 40px 0px;
+    width: 100%;
+    aspect-ratio: 1;
+}
+.detail-container{
+        max-width: 400px;
+        text-align: center;
+        background-color: var(--color-acento-claro);
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.068);
+        transition: 200ms;
+        
+        
+    
+    }
+ 
+.img{
+    width: 250px;
+    height: 250px;
+}
+.container-cart-detail{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.btn{
+    background-color: #ffa733;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.btn:hover{
+   background-color: rgb(99, 79, 54);
+}
